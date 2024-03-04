@@ -29,7 +29,7 @@ const input = document.querySelector("input");
 const dropdown = document.querySelector(".dropdown");
 const resultsWrapper = document.querySelector(".results"); 
 
-
+const newVar = "";
 //add event listener
 const onInput = async event =>{
 const movies = await fetchData(event.target.value);
